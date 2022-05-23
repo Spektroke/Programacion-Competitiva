@@ -7,7 +7,8 @@ int main(){ /// Entre estas llaves debemos escribir nuestro código
 	cin>>x>>y;
 	if(x>y){
 		cout<<"x es mayor que y\n";
-	}else{
+	}
+	else{
 		cout<<"x no es mayor que y\n";
 	}
 }
