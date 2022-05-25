@@ -1,0 +1,26 @@
+Problemas para resolver en clase:
+
+https://codeforces.com/problemset/problem/4/A
+
+https://www.hackerrank.com/challenges/solve-me-first
+
+
+Tarea:
+
+Personas sin experiencia programando:
+
+https://codeforces.com/problemset/problem/50/A
+
+https://codeforces.com/problemset/problem/617/A
+
+Personas con poca experiencia programando:
+
+https://www.hackerrank.com/challenges/a-very-big-sum
+
+Para personas con experiencia media programando:
+
+https://www.hackerrank.com/challenges/divisible-sum-pairs
+
+Para personas con experiencia avanzada programando:
+
+https://www.hackerrank.com/challenges/equal
