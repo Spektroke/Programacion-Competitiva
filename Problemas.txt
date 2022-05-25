@@ -1,0 +1,37 @@
+Problemas para resolver en clase:
+
+	https://codeforces.com/contest/1669/problem/C
+
+Tarea:
+
+Con los temas de la clase:
+
+	Ciclos:
+
+	https://codeforces.com/contest/1669/problem/A
+
+	https://cses.fi/problemset/task/1068
+
+	Vectores:
+
+	https://www.hackerrank.com/challenges/compare-the-triplets
+
+	Ordenar:
+	
+	https://www.hackerrank.com/challenges/find-the-median
+	
+	https://cses.fi/problemset/task/1621
+
+Ejercicios dificiles:
+
+	https://cses.fi/problemset/task/1090
+
+	https://codeforces.com/contest/1669/problem/E
+	
+	https://cses.fi/problemset/task/1084 
+
+
+
+
+
+
