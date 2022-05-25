@@ -4,7 +4,8 @@ using namespace std; /// Contexto, lo veremos más adelante
 
 int main(){ /// Entre estas llaves debemos escribir nuestro código
 	char c;
-	cin>>c;
+	cin>>c; // el "cin" es como el "scanf("",)
+	/* scanf("%s",&c); */
 	cout<<"El contenido de c es "<<c<<'\n';
 	
 	string s;
