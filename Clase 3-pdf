@@ -1,27 +1,32 @@
+#include <bits/stdc++.h> 
+using namespace std; 
+int main(){ 
+
+
 /* Funcion pasando Parametros por Referencia */
-void sacarEspaciosFinal( string & s ){
-	while( s.back() == '' ){
-		s.pop_back()
+	void sacarEspaciosFinal( string & s ){
+		while( s.back() == '' ){
+			s.pop_back();
+		}
 	}
-}
 /* Esta funcion recibe un String y lo modifica sacando los '' que 
 esten al final del String
 
 /* Funciona que devuelve una Referencia */
-int & incrementar( int & x ){
-	x = x+1;
-	return x;
-}
+	int & incrementar( int & x ){
+		x = x+1;
+		return x;
+	}
 /* ______________________________________________________________________________________________
 Funcion Recursiva */
-int fibo( int n ){
-	if( n<=1){
-		return n;
+	int fibo( int n ){
+		if( n<=1){
+			return n;
+		}
+		else{
+			return fibo(n-1)+fibo(n-2);
+		}
 	}
-	else{
-		return fibo(n-1)+fibo(n-2);
-	}
-}
 /* La Funcion Fibonacci, el caso Base es si n<=1 y el caso 
 recursivo es si n>1
 _________________________________________________________________________________________________
@@ -35,18 +40,18 @@ sus parametros, haciendo que estos tengan un valor por defecto
 
 Ejemplo de Valor por Defecto	*/
 
-int sumar( vector<int> v, int l=-1, int r=-1 ){
-	if( l==-1){
-		l=0;
-	}if( r==-1){
-		r = v.size();
+	int sumar( vector<int> v, int l=-1, int r=-1 ){
+		if( l==-1){
+			l=0;
+		}if( r==-1){
+			r = v.size();
+		}
+		int suma=0;
+		forsn( i,l,r ){
+			suma+=v[i];
+		}
+		return suma;
 	}
-	int suma=0;
-	forsn( i,l,r ){
-		suma+=v[i];
-	}
-	return suma;
-}
 /* ______________________________________________________________________________________________
 PAIR (pareja)
 En C++ PAIR nos permite vincular 2 variables de igual o 
@@ -80,7 +85,7 @@ tuple< int,int,int > t = {1,2,3};
 la función get:		*/
 get<ind>(t)
 
-
+}
 
 
 
